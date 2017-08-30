@@ -14,7 +14,7 @@ const elegantSpinner = require('elegant-spinner')
 const logUpdate = require('log-update')
 const frame = elegantSpinner()
 const os = require('os')
-const CONFIG_PATH = os.homedir() + '/.plex-tv-cleanup-config'
+const CONFIG_PATH = '/config/.plex-tv-cleanup-config'
 
 try {
   var config = require(CONFIG_PATH)
